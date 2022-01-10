@@ -8,7 +8,7 @@ networks:
 services:
   bank-service:
     build: .
-    image: aline/underwriter-microservice
+    image: captainsalt/underwriter-microservice
     env_file:
       - .env
     ports:
