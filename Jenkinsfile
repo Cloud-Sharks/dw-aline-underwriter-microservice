@@ -1,10 +1,10 @@
 // Leave blank
 def jenkinsImage = ""
 
-def repositoryUrl = "https://github.com/davidsmoothstack/aline-underwriter-microservice.git"
-def branchName = "dev"
-def ecrUrl = "862167864120.dkr.ecr.us-east-1.amazonaws.com"
-def ecrRepoName = "dw-underwriter-microservice"
+final repositoryUrl = "https://github.com/davidsmoothstack/aline-underwriter-microservice.git"
+final branchName = "dev"
+final ecrUrl = "862167864120.dkr.ecr.us-east-1.amazonaws.com"
+final ecrRepoName = "dw-underwriter-microservice"
 
 pipeline {
     agent any
